@@ -161,7 +161,7 @@ image: "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1000
     techStack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop",
     github: "https://github.com/Vijayshah099/Portfolio",
-    liveDemo: "#",
+    liveDemo: "https://vijaykumarshahportfolio.vercel.app",
     tags: ["Portfolio", "React", "UI/UX"]
   }
 ],
