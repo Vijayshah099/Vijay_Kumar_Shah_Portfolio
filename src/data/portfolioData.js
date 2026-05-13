@@ -22,8 +22,8 @@ export const portfolioData = {
     stats: [
       { label: "Projects Completed", value: "15+" },
       { label: "Technologies", value: "10+" },
-      { label: "Certifications", value: "4" },
-      { label: "Coding Hours", value: "1000+" }
+      { label: "Certifications", value: "5+" },
+      { label: "Coding Hours", value: "500+" }
     ]
   },
   skills: [
@@ -40,7 +40,7 @@ export const portfolioData = {
       category: "Backend",
       items: [
         { name: "Node.js", progress: 75 },
-        { name: "Express", progress: 80 },
+        { name: "Express", progress: 78 },
         { name: "REST APIs", progress: 85 }
       ]
     },
@@ -48,8 +48,8 @@ export const portfolioData = {
       category: "Programming",
       items: [
         { name: "Java", progress: 90 },
-        { name: "Python", progress: 80 },
-        { name: "C / C++", progress: 75 }
+        { name: "Python", progress: 85 },
+        { name: "C / C++", progress: 80 }
       ]
     },
     {
@@ -57,7 +57,7 @@ export const portfolioData = {
   items: [
     { name: "Machine Learning", progress: 75 },
     { name: "Data Analysis", progress: 70 },
-    { name: "Python Libraries", progress: 75 },
+    { name: "Python Libraries", progress: 80 },
     { name: "AI Integration", progress: 70 }
   ]
 },
@@ -65,8 +65,8 @@ export const portfolioData = {
       category: "Database & Tools",
       items: [
         { name: "MongoDB", progress: 80 },
-        { name: "MySQL", progress: 85 },
-        { name: "Git & GitHub", progress: 90 },
+        { name: "MySQL", progress: 95 },
+        { name: "Git & GitHub", progress: 86 },
         { name: "VS Code", progress: 95 }
       ]
     }
