@@ -1,43 +1,40 @@
-# Vijay Kumar Shah - Personal Portfolio
+# 🚀 Vijay Kumar Shah — Developer Portfolio
 
-A modern, highly responsive, and interactive personal portfolio website built with React, Vite, Tailwind CSS, and Framer Motion.
+A modern and responsive developer portfolio built using React, Vite, Tailwind CSS, and Framer Motion.
 
-## Features
+## 🔥 Features
 
-- **Dynamic Data Structure**: All content is driven by a `portfolioData.js` file for easy updates.
-- **Dark/Light Mode**: Full theme support with localStorage persistence.
-- **Glassmorphism Design**: Sleek, modern aesthetics.
-- **Animations**: Scroll reveals, hover effects, and custom cursor using Framer Motion.
-- **Interactive Particles**: Background particle mesh powered by `tsparticles`.
-- **Responsive**: Fully optimized for mobile, tablet, and desktop views.
+- Modern UI/UX Design
+- Animated Background Effects
+- Responsive Design
+- Smooth Scroll Navigation
+- Interactive Project Showcase
+- Full Stack + AI Developer Portfolio
+- Glassmorphism Design
+- Dynamic Animations
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- React 18
+- React.js
 - Vite
 - Tailwind CSS
 - Framer Motion
-- React Icons & Lucide React
-- tsParticles
-- React Scroll
+- JavaScript
+- HTML/CSS
 
-## How to Run Locally
+## 📂 Featured Projects
 
-1. **Install Node.js**: Ensure you have Node.js installed on your machine.
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd vijay-portfolio
-   ```
-3. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-4. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
-5. **Open in Browser**: The terminal will display a local URL (usually `http://localhost:5173`).
+- SQL Bot AI Assistant
+- AQI Prediction Model
+- Weather Application
+- Expense Tracker System
+- Food Delivery Website
 
-## Editing Content
+## 📬 Contact
 
-To update the text, projects, skills, or experience, simply edit the `src/data/portfolioData.js` file. The UI will automatically reflect the changes!
+- GitHub: https://github.com/Vijayshah099
+- LinkedIn: https://www.linkedin.com/in/vijay-kumar-shah01/
+
+---
+
+⭐ Built with passion by Vijay Kumar Shah
