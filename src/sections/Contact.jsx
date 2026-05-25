@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
 import { portfolioData } from '../data/portfolioData';
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
   const { hero: { socials } } = portfolioData;
@@ -11,17 +12,42 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    // Simulate API call
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  setIsSubmitting(true);
+
+  try {
+    await emailjs.send(
+      "service_k97u1qe",
+      "template_kn7wxho",
+      {
+        name: formState.name,
+        email: formState.email,
+        message: formState.message,
+      },
+      "N-Ip54kbwe6wv_-4v"
+    );
+
+    setSubmitted(true);
+
+    setFormState({
+      name: "",
+      email: "",
+      message: "",
+    });
+
     setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitted(true);
-      setFormState({ name: '', email: '', message: '' });
-      setTimeout(() => setSubmitted(false), 5000);
-    }, 1500);
-  };
+      setSubmitted(false);
+    }, 5000);
+
+  } catch (error) {
+    console.log(error);
+    alert("Message failed to send");
+  }
+
+  setIsSubmitting(false);
+};
 
   const handleChange = (e) => {
     setFormState({ ...formState, [e.target.name]: e.target.value });
