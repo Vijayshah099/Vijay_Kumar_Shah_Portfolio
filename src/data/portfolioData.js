@@ -148,7 +148,7 @@ image: "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1000
 
   github: "https://github.com/Vijayshah099/nextrack-expense-tracker",
 
-  liveDemo: "https://vercel.com/vijay-shah-s-projects/nextrack-expense-tracker-v2",
+  liveDemo: "https://nextrack-expense-tracker-v2.vercel.app/",
 
   tags: [
     "Finance",
