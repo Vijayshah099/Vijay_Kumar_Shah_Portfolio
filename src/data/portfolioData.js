@@ -58,7 +58,7 @@ export const portfolioData = {
     { name: "Machine Learning", progress: 75 },
     { name: "Data Analysis", progress: 70 },
     { name: "Python Libraries", progress: 80 },
-    { name: "AI Integration", progress: 70 }
+    { name: "AI Integration", progress: 75 }
   ]
 },
     {
@@ -67,7 +67,7 @@ export const portfolioData = {
         { name: "MongoDB", progress: 80 },
         { name: "MySQL", progress: 95 },
         { name: "Git & GitHub", progress: 86 },
-        { name: "VS Code", progress: 95 }
+        { name: "VS Code", progress: 92 }
       ]
     }
   ],
@@ -130,16 +130,33 @@ image: "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1000
   },
 
   {
-    id: 4,
-    title: "Expense Tracker System",
-    description:
-      "Designed a smart expense management system for tracking daily spending, managing budgets, and visualizing financial records efficiently.",
-    techStack: ["JavaScript", "HTML", "CSS"],
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop",
-    github: "https://github.com/Vijayshah099/Expense-tracker-system",
-    liveDemo: "#",
-    tags: ["Finance", "Frontend", "Productivity"]
-  },
+  id: 4,
+  title: "NexTrack - Personal Finance Dashboard",
+  description:
+    "Built a modern personal finance dashboard for tracking income and expenses with category-based analytics, real-time balance calculations, search functionality, and persistent local storage.",
+
+  techStack: [
+    "React.js",
+    "Vite",
+    "Tailwind CSS",
+    "JavaScript",
+    "Recharts",
+    "LocalStorage API"
+  ],
+
+  image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1000&auto=format&fit=crop",
+
+  github: "https://github.com/Vijayshah099/nextrack-expense-tracker",
+
+  liveDemo: "https://vercel.com/vijay-shah-s-projects/nextrack-expense-tracker-v2",
+
+  tags: [
+    "Finance",
+    "Dashboard",
+    "Analytics",
+    "React"
+  ]
+},
 
   {
     id: 5,
