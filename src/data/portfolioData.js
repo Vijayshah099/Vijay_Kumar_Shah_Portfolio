@@ -9,7 +9,7 @@ export const portfolioData = {
 ],
     description:
   "Passionate Full Stack Developer and AI Engineer focused on building scalable web applications and intelligent solutions using React, Node.js, Java, and Machine Learning.",
-    resumeLink: "https://drive.google.com/file/d/1_HqwF3RReuQrfcGqvPWpHEO_JVdjgcv7/view?usp=drive_link", // placeholder
+    resumeLink: "https://drive.google.com/file/d/13YaWUPx89m9Ctyhgm9n1ZmENq7qhRisM/view?usp=drive_link", // placeholder
     socials: {
       github: "https://github.com/Vijayshah099",
       linkedin: "https://www.linkedin.com/in/vijay-kumar-shah01/",
